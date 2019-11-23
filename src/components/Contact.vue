@@ -2,7 +2,7 @@
     <div class="my-container">
         <div class="contact-back">
             <div class="contact wow animated fadeIn" id="contact">
-                <h1>CONTACT</h1>
+                <h1 class="contact-title">CONTACT</h1>
                 <br><br>
                 <p class="contact-p">ADDRESSE : LYON</p>
                 <p class="contact-p">TEL : 07 62 74 65 13</p>

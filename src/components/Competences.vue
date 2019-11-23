@@ -8,18 +8,12 @@
                 <h5 class="title">Voici mes différentes compétences dans le développement web et logiciel.</h5>
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
 
                             <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInRight">
+                                <div class="col-md-12 animated fadeInRight">
                                     <h3 class="h3-title">Développement Back-End</h3>
                                     <br>
                                     <b>PHP 7</b> est un langage back-end qui me permet de créer des sites web dits
@@ -38,7 +32,10 @@
                                     <p>
                                         J'ai également développé une messagerie instantané en NodeJS et VueJS.
                                     </p>
-                                    <img class="img-Competances my-shadow animated fadeInUp" src="../assets/img/code.png" alt="code">
+                                    <div class="div-carousel">
+                                        <img class="img-carousel-comp animated fadeInUp" src="../assets/img/code.png"
+                                             alt="code">
+                                    </div>
                                 </div>
                             </div>
 
@@ -46,7 +43,7 @@
                         <div class="carousel-item">
 
                             <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInLeft">
+                                <div class="col-md-12 animated fadeInLeft">
                                     <h3 class="h3-title">Développement Front-End</h3>
                                     <br>
                                     <p>
@@ -62,14 +59,16 @@
                                         De plus j'ai peu m'interesser au framework <b>Angular</b> et à son langage
                                         <b>TypeScript</b>.
                                     </p>
-                                    <img class="img-Competances my-shadow animated fadeInUp"
-                                         src="../assets/img/css.png" alt="htmlcssbootstrap">
+                                    <div class="div-carousel">
+                                        <img class="img-carousel-comp animated fadeInUp" src="../assets/img/css.png"
+                                             alt="code">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInRight">
+                                <div class="col-md-12 animated fadeInRight">
                                     <h3 class="h3-title">PROGRAMMATION</h3>
                                     <br>
                                     <p>
@@ -84,14 +83,16 @@
                                     </div>
                                     <p>Je me suis également interessé aussi aux langages <b>C, C# et Kotlin.</b></p>
 
-                                    <img class="img-Competances my-shadow animated fadeInUp"
-                                         src="../assets/img/python.png" alt="cppjavapy">
+                                    <div class="div-carousel">
+                                        <img class="img-carousel-comp animated fadeInUp" src="../assets/img/python.png"
+                                             alt="code">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInLeft">
+                                <div class="col-md-12 animated fadeInLeft">
                                     <h3 class="h3-title">ENVIRONNEMENT DE TRAVAIL & LOGICIELS</h3>
                                     <br>
                                     <p>
@@ -109,8 +110,10 @@
                                         outils de
                                         la suite <b>Office</b>.
                                     </p>
-                                    <img class="img-Competances my-shadow animated fadeInUp"
-                                         src="../assets/img/git.png" alt="jet">
+                                    <div class="div-carousel">
+                                        <img class="img-carousel-comp animated fadeInUp" src="../assets/img/git.png"
+                                             alt="code">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -130,10 +133,10 @@
                     <br><br>
                     <div class="row">
                         <div class="col-md-6">
-                            <img class="img-profile my-shadow img-lang" src="../assets/img/usa.png" alt="usa">
+                            <img class="my-shadow img-lang" src="../assets/img/usa.png" alt="usa">
                         </div>
                         <div class="col-md-6">
-                            <img class="img-profile my-shadow img-lang" src="../assets/img/Spain-icon.png" alt="esp">
+                            <img class="my-shadow img-lang" src="../assets/img/Spain-icon.png" alt="esp">
                         </div>
                     </div>
                 </div>

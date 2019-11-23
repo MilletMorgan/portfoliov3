@@ -5,7 +5,7 @@
 
 
             <div class="jumbotron">
-                <h1 class="title text-light wow animated fadeIn">
+                <h1 class="title-stage text-light wow animated fadeIn">
                     STAGE
                     <br>
                     LINKVALUE
@@ -64,6 +64,15 @@
                         secteurs du développement à savoir le web, mobile, l'ingénérie
                         systeme et de la Data Science.
                     </p>
+                    <br>
+                    <hr>
+                    <br>
+                    <h4 class="wow animated fadeIn text-light">Patrimoine informatique</h4>
+                    <p class="wow animated fadeIn">
+                        L'entreprise emploie des 20 aines d'employers dans leurs studios à Lyon.
+                        Chaque employé travaille sur Mac Book Pro avec un deuxième écran sur son poste de travail personnel.
+
+                    </p>
 
                     <br>
                     <hr>
@@ -86,57 +95,52 @@
                     <br><br>
                 </div>
             </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInRight">
-                                    <img src="../assets/img/tchat1.png" class="img-carousel" alt="stack"></div>
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInLeft">
-                                    <img src="../assets/img/tchat2.png" class="img-carousel" alt="stack">
-                                </div>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-stage" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-carousel">
+                            <div class="col-md-12 wow animated fadeInRight">
+                                <img src="../assets/img/tchat1.png" class="img-carousel" alt="stack">
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="row row-carousel">
-                                <div class="col-md-12 wow animated fadeInRight">
-                                    <img src="../assets/img/tchat3.png" class="img-carousel" alt="stack">
-                                </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-carousel">
+                            <div class="col-md-12 wow animated fadeInLeft">
+                                <img src="../assets/img/tchat2.png" class="img-carousel" alt="stack">
                             </div>
                         </div>
                     </div>
-
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                       data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                       data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                        <div class="row row-carousel">
+                            <div class="col-md-12 wow animated fadeInRight">
+                                <img src="../assets/img/tchat3.png" class="img-carousel" alt="stack">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="https://github.com/MilletMorgan/nodeJS-chat">
-                    <div class="link-button shadow-hover make-it-slow wow animated fadeIn">
-                        <button class="link-button2">
-                            Consulter le projet sur Github
-                        </button>
-                    </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                   data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                   data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
             </div>
+            <a href="https://github.com/MilletMorgan/nodeJS-chat">
+                <div class="link-button shadow-hover make-it-slow wow animated fadeIn">
+                    <button class="link-button2">
+                        Consulter le projet sur Github
+                    </button>
+                </div>
+            </a>
         </div>
+    </div>
     </div>
 
 

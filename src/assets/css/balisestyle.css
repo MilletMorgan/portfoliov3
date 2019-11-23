@@ -52,7 +52,9 @@ html, body, #app {
     /*font-family: 'Roboto', sans-serif!important;
     font-family: 'Comfortaa', cursive!important;
     font-family: 'Verdana', sans-serif !important;*/
-    font-family: 'Comfortaa', cursive !important;
+    /*font-family: 'Comfortaa', cursive !important;*/
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
 }
 
 /* Styles, not important */
@@ -101,7 +103,7 @@ img.img-profile.my-shadow {
 }
 
 ol.carousel-indicators {
-    margin-bottom: -5vh !important;
+    margin-bottom: -25vh !important;
 }
 
 img.img-profile.my-shadow {

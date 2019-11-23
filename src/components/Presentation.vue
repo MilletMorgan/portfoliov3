@@ -10,7 +10,7 @@
                              alt="profile">
                     </div>
                     <div class="col-md-6">
-                        <div class="title title-profile wow animated fadeIn text-light">
+                        <div class="title-profile wow animated fadeIn text-light">
                             <h1>MORGAN MILLET</h1>
                             <h5>DEVELOPPEUR WEB</h5>
                         </div>
@@ -20,7 +20,7 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <a href="cv.pdf" download>
+                        <a href="../assets/files/cv.pdf" download>
                             <div class="link-button shadow-hover make-it-slow wow animated fadeIn">
                                 <button class="link-button2">
                                     TELECHARGER MON CV
@@ -30,7 +30,7 @@
 
                     </div>
                     <div class="col-md-6">
-                        <a href="#" download>
+                        <a href="../assets/files/Tableau-de-synthèse.xlsx" download>
                             <div class="link-button shadow-hover make-it-slow wow animated fadeIn">
                                 <button class="link-button2">
                                     TELECHARGER MA GRILLE DE COMPETANCES
