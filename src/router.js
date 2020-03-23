@@ -11,6 +11,8 @@ import StageLV from "./components/StageLV";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Presentation from "./components/Presentation";
+import Svg from './components/includes/Svg'
+import StagePS from './components/StagePS'
 
 Vue.use(Router);
 
@@ -21,7 +23,11 @@ let router = new Router({
             path: '/',
             name: 'presentation',
             component: Presentation,
-            props: true
+            props: true,
+            children: [{
+                path: 'svg',
+                components: Svg
+            }]
         },
         {
             path: '/experiences',
@@ -69,6 +75,12 @@ let router = new Router({
             path: '/stagelv',
             name: 'stage',
             component: StageLV,
+            props: true
+        },
+        {
+            path: '/stageps',
+            name: 'stage',
+            component: StagePS,
             props: true
         },
         {

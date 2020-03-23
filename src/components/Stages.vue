@@ -36,22 +36,22 @@
             <div class="col md-6">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="../assets/img/logo.png" class="my-shadow wow animated fadeInLeft full-width"
+                        <img src="../assets/img/pistil.jpg" class="my-shadow wow animated fadeInLeft full-width"
                              alt="logo">
                     </div>
                     <div class="col-md-7 fadeInRight wow animated justify">
-                        <h2 class="wow animated fadeIn text-light">Stage 2</h2>
-                        <a class="wow animated fadeIn" href="https://link-value.fr/fr">lien site deuxième stage</a>
+                        <h2 class="wow animated fadeIn text-light">Pistil Studio</h2>
+                        <a class="wow animated fadeIn" href="http://pistil-studio.fr/">http://pistil-studio.fr/</a>
                         <br>
                         <br><br>
                         <p class="wow animated fadeIn">
-                            description stage 2.
+                            Pistil Studio est un studio web expert dans la création de site sur mesure.
                         </p>
                         <br><br><br>
-                        <router-link class="nav-item nav-link" to="#">
+                        <router-link class="nav-item nav-link" to="/stageps">
                             <div class="link-button shadow-hover make-it-slow wow animated fadeIn">
                                 <button class="link-button2">
-                                    En savoir plus sur le stage 2
+                                    En savoir plus sur Pistil Studio
                                 </button>
                             </div>
                         </router-link>

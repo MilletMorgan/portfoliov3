@@ -45,36 +45,12 @@
 
             </nav>
 
-            <!--
-            <nav class="navbar navbar-right navbar-expand-sm flex-nowrap sticky-top">
-                        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar5">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <span class="navbar-brand w-100">
-                            <router-link class="nav-item nav-link" to="/">MILLET MORGAN</router-link>
-                        </span>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <router-link class="nav-item nav-link" to="/">PRESENTATION</router-link>
-                                <router-link class="nav-item nav-link" to="/experiences">EXPERIENCES</router-link>
-                                <router-link class="nav-item nav-link" to="/formations">FORMATIONS</router-link>
-                                <router-link class="nav-item nav-link" to="/competences">COMPETENCES</router-link>
-                                <router-link class="nav-item nav-link" to="/veilles">VEILLES</router-link>
-                                <router-link class="nav-item nav-link" to="/stages">STAGES</router-link>
-                                <router-link class="nav-item nav-link" to="/portfolio">PORTFOLIO</router-link>
-                                <router-link class="nav-item nav-link" to="/contact">CONTACT</router-link>
-                            </div>
-                        </div>
-
-                        <div class="w-100"></div>
-            </nav>
-        -->
-
             <div id="content">
+
+
                 <router-view/>
             </div>
         </div>
-
 
     </div>
 </template>

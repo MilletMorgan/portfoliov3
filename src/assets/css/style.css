@@ -61,6 +61,13 @@
     -webkit-transition: background 0.3s ease-in-out;
     min-height: 10vh;
     color: #FFF;
+    border-width: 0px!important;
+    border-color: rgba(0,0,0,0);
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    /* background-image: linear-gradient(90deg,#f92c8b 0%,#b02cd6 100%)!important; */
 }
 
 .link-button2:hover {
@@ -535,4 +542,23 @@ img:hover {
 
 .border-gradient2:hover {
     padding: 1vh;
+}
+
+video#bgvid {
+    position: fixed; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url("../files/background.webm");
+    background-size: cover;
+}
+
+.svg {
+    margin: auto;
+    background: rgb(32, 18, 58);
+    display: block;
+    z-index: -1000;
+    position: absolute;
+    width: 86%!important;
+    height: 95%!important;
+    overflow: hidden!important;
 }
